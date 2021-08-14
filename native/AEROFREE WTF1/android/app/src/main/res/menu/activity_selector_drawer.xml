@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"></group>
+
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/button_devices"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Device Information" />
+            <item
+                android:id="@+id/button_map"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="Map Display" />
+            <item
+                android:id="@+id/button_notifications"
+                android:enabled="true"
+                android:icon="@android:drawable/stat_notify_chat"
+                android:title="Notifications"
+                android:visible="false" />
+            <item
+                android:id="@+id/button_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/button_start_react"
+                android:enabled="false"
+                android:title="ReactNative Test"
+                android:visible="false" />
+        </menu>
+    </item>
+
+</menu>
